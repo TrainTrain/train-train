@@ -1,48 +1,56 @@
-# CakePHP
+TRAIN TRAIN
+===========
 
-[![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![License](https://poser.pugx.org/cakephp/cakephp/license.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
-[![Code consistency](http://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg)](http://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/)
+###« La connectivité au service de la communication et du partage de l'information. »###
 
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
-Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+**Vous êtes voyageur, usager, client ? **
+Aimeriez-vous pouvoir indiquer votre satisfaction en temps réel sur le service que vous utilisez, communiquer facilement et efficacement avec les autres voyageurs, avoir le retour de l'exploitant sur les incidents, anomalies remontées ?
 
+**Vous êtes exploitant d'une société de transport en commun ?**
+Seriez-vous intéressés d'avoir un retour en contenu sur les services que vous proposez, intervenir en direct auprès de vos clients, salariés, sur la question du confort, des anomalies, communiquer plus facilement et plus efficacement ?
 
-## Some Handy Links
-
-[CakePHP](http://www.cakephp.org) - The rapid development PHP framework
-
-[CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
-
-[API](http://api.cakephp.org) - A reference to CakePHP's classes
-
-[Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
-
-[The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
-
-[Community Center](http://community.cakephp.org) - A source for everything community related
-
-[Training](http://training.cakephp.org) - Join a live session and get skilled with the framework
-
-[CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
-
-[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
+###*Alors TRAIN-TRAIN est fait pour vous !*###
 
 
-## Get Support!
+----------
 
-[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
+Concept
+-----------
 
-[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
+*TRAIN-TRAIN* est une web-application responsive, multi-plateformes, de communication, de suivi, de dialogue et d'échanges autour et au sein des transports en commun, qu'ils soient urbains ou péri-urbains.
+**Avec** et **entre** clients, **vers** et **depuis** l'exploitant.
 
-[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
+> **Technique**
+> Développée en PHP/JS/NodeJS, le système est scalable et déployable très rapidement, et garantit ainsi une réactivité et disponibilité identique aux standards du marché.
 
-[Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
+Le client se connecte alors monté dans son train/bus/tram/car/métro, identifié par les SSO des réseaux sociaux connus, en un clic, la géolocalisation basée sur les données OpenDATA de l'exploitant lui permettent d'être associé automatiquement à son moyen de transport et d'évoluer dans l'environnement d'interaction de celui-ci.
+
+###Fonctionnalités###
+
+**ÉVALUER**
+
+- Système de notation simple pour chaque critère (propreté, sûreté, température, etc. la liste est non exhaustive)
+- Mise à jour possible jusqu'à la fin de la journée (ressenti évoluant)
+- Transmission de statistiques fines et détaillées à l'exploitant
+
+**DISCUTER**
+
+- Espace de discussion général, ou par canaux (par voiture, thème, etc.) lié à son moyen de transport
+- Chatbot qui interagit avec les discussion en cours, poussant les utilisateurs à utiliser les moyens de signalement si pertinent, ou donne des informations dans le canal donné lié à l'exploitant
+- Intervention directe des entités de supervision de l'exploitant dans ces canaux en cas d'incident pour informer ou faire de la pédagogie en lien avec les éventuelles équipes sur le terrain
+- valorisation des échanges
+
+**SIGNALER**
+
+- Système de signalement en un click sur les problèmes couramment rencontrés
+- Retours libres possibles sinon
+- Information du suivi des signalements, et des signalements en cours remontés par d'autres voyageurs
+
+**S'INFORMER**
+
+- Retour aux utilisateurs des transports via la même application
+- météo d'une liaison donnée, d'un horaire donné
+- informations contextuelles et statistiques du confort ou suivi des 
 
 
-## Contributing
 
-[CONTRIBUTING.md](CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project
-
-[CookBook "Contributing" Section (2.x)](http://book.cakephp.org/2.0/en/contributing.html) [(3.0)](http://book.cakephp.org/3.0/en/contributing.html) - Version-specific details about contributing to the project
