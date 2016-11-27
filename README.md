@@ -21,9 +21,9 @@ Concept
 **Avec** et **entre** clients, **vers** et **depuis** l'exploitant.
 
 > **Technique**
-> Développée en PHP/JS/NodeJS, le système est scalable et déployable très rapidement, et garantit ainsi une réactivité et disponibilité identique aux standards du marché.
+> Développée en PHP/JS/NodeJS, le système est scalable et déployable très rapidement, et garantit ainsi une réactivité et disponibilité conforme aux standards du marché.
 
-Le client se connecte alors monté dans son train/bus/tram/car/métro, identifié par les SSO des réseaux sociaux connus, en un clic, la géolocalisation basée sur les données OpenDATA de l'exploitant lui permettent d'être associé automatiquement à son moyen de transport et d'évoluer dans l'environnement d'interaction de celui-ci.
+Le client se connecte une fois monté dans son train/bus/tram/car/métro (ou en prévision de), identifié par les SSO des réseaux sociaux connus, en un click, la géolocalisation basée sur les données OpenDATA de l'exploitant lui permettent d'être associé automatiquement à son moyen de transport et d'évoluer dans l'environnement d'interaction de celui-ci.
 
 ###Fonctionnalités###
 
@@ -49,8 +49,16 @@ Le client se connecte alors monté dans son train/bus/tram/car/métro, identifi�
 **S'INFORMER**
 
 - Retour aux utilisateurs des transports via la même application
-- météo d'une liaison donnée, d'un horaire donné
-- informations contextuelles et statistiques du confort ou suivi des 
+- Météo d'une liaison donnée, d'un horaire donné
+- Informations contextuelles et statistiques du confort ou suivi des anomalies remontées
 
+###« **TRAIN-TRAIN**, c'est la possibilité de mieux communiquer dans les transports et d'améliorer la visibilité des efforts entrepris dans les évolutions de ceux-ci. »###
 
+>*TRAIN-TRAIN* est un logiciel libre sous licence GPL3 développé par :
 
+>- Alexandre Martin
+- Mathilde Gourmet
+- Arnaud Chanoit
+- Fabien Chanoit
+- Pierre-Louis Mazoyer
+- Nicolas Wurtz
