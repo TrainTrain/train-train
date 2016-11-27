@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Five Star Rating</title>
+        <meta name="description" content="Five star rating component built with JavaScript and CSS, and packaged as a bower component.">
+
+        <link rel="stylesheet" href="ressources/five-star-rating/css/rating.min.css">
+    </head>
+    <body>
+
+
+                            <ul class="c-rating"></ul>
+
+        <script src="ressources/five-star-rating/js/dist/rating.min.js"></script>
+        <script>
+            var ratingElement = document.querySelector('.c-rating');
+            var currentRating = 3;
+            var maxRating = 5;
+            var callback = function(rating) { alert(rating); };
+            var r = rating(ratingElement, currentRating, maxRating, callback);
+        </script>
+
+
+    </body>
+</html>

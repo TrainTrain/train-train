@@ -1,0 +1,49 @@
+.contenu {
+    height: 100%;
+}
+
+.container-chat {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 65vh;
+    margin-bottom: 10px;
+}
+
+.container-msg {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.btn-envoyer {
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding: 10px 10px 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.message {
+    margin: 20px;
+    padding: 3px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.message-vert {
+    background-color: #229a22;
+}
+.message-bleu {
+    background-color: #229a22;
+}

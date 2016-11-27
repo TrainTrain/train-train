@@ -1,0 +1,25 @@
+.intitule {
+    font-size: 1.6em;
+}
+.precision {
+    display: block;
+    position: relative;
+    margin: 0 15px;
+    color: #888;
+}
+.stars {
+    font-size: 1.7em;
+}
+
+.notation {
+    margin: 20px 0px 0px;
+    padding: 0;
+}
+
+.jaune {
+    color: #ff0;
+}
+
+.c-rating {
+
+}

@@ -1,0 +1,161 @@
+body {
+    background-color: #eee;
+}
+
+.petit-trait {
+    color: #fff;
+}
+
+.infos {
+    margin: 0px 10px 30px;
+}
+
+.precontainer {
+}
+.precontainer2 {
+    animation: displaycontainter 4s;
+}
+
+.icones-login {
+    width: 50px;
+    max-width: 50px;
+}
+
+.mot-accueil {
+    display: block;
+    position: relative;
+    color: #aaa;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2em;
+    margin: 25px 0 10px;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.img-logo {
+    display: block;
+    position: relative;
+    height: 20%;
+    max-height: 200px;
+    width: 100%;
+}
+
+.bouton-cnx {
+    display: block;
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #eee;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.bouton-cnx:hover, .bouton-cnx:active {
+    opacity: 0.5;
+}
+.bouton-facebook {
+    background-color: #29487d;
+}
+.bouton-twitter {
+    background-color: #1da1f2;
+}
+.bouton-google {
+    background-color: #db4437;
+}
+.bouton-secnx {
+    background-color: #bababa;
+}
+.bouton-geoloc {
+    background-color: #bababa;
+    color: #fff;
+}
+.bouton-valider {
+    background-color: #434962;
+}
+.text-ou {
+    margin: 30px 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.petite-marge {
+    margin-bottom: 10px;
+}
+
+.numtrain {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777;
+}
+
+/*///// PETIT TRAIN QUI BOUGE */
+
+#train {
+  position: absolute;
+  left: -100%;
+  top: 50%;
+  z-index: 1;
+  margin: 0 0 0 0;
+  width: 150px;
+  height: 32px;
+  animation: movetrain 1.5s ease-in;
+  opacity: 0;
+}
+
+/* Standard syntax */
+@keyframes movetrain {
+    0% { margin-left: -150%; opacity: 1; }
+    90% { margin-left: 150%; opacity: 0.8; }
+    100% { margin-left: 200%; opacity: 0; }
+}
+
+@keyframes displaycontainter {
+    0% { opacity: 0; }
+    40% { opacity: 0; }
+    60% { opacity: 1; }
+}
+
+/* Standard syntax */
+@keyframes movetext {
+      50% {
+    margin-left: 50%;
+    }
+    100%{
+     margin-left: 50%;
+
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
